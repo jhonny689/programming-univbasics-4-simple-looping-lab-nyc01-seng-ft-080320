@@ -4,11 +4,11 @@ def loop_message_five_times(message)
 end
 
 def loop_message_n_times(message, n)
-  n.Times
+  n.Times{puts message}
 end
 
-def output_array
-  
+def output_array(array)
+  print array
 end
 
 def return_string_array
