@@ -17,9 +17,10 @@ end
 
 def return_string_array(array)
   counter = 0
-  res_arr = [array.length]
+  res_arr = Array.new(array.length)
   while array[counter] do
-    
+    res_arr[counter] = array[counter].to_s
     counter += 1
   end
+  res_arr
 end
