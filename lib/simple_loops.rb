@@ -1,6 +1,6 @@
 # Write your methods here
 def loop_message_five_times(message)
-  5.Times{puts message}
+  5.Time{puts message}
 end
 
 def loop_message_n_times(message, n)
