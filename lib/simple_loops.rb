@@ -17,8 +17,9 @@ end
 
 def return_string_array(array)
   counter = 0
+  res_arr = [array.length]
   while array[counter] do
-    puts array[counter].toString
+    
     counter += 1
   end
 end
